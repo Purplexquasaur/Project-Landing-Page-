@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 500px;
+    padding-right: 500px;
+    color: #F9FAF8;
+    
+
+}
+
+.preview-image {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.Logo {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAf8; 
+}
+
+.LogoLinks {
+    display: flex;
+    flex: none;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.content {
+    font-size: 18px;
+    color: #E5E7EB; 
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0; 
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: azure
+}
+
+img {
+    height: 250px;
+    width: 300px;
+}
+
+.title {
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    height: 90px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.preview button {
+    background-color: #3882F6;
+}
+
+.products {
+
+}
+
+.review {
+
+}
+
+.call2action {
+
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+
+}
+
+.footer {    
+    display: flex;
+    color: azure; 
+}
